@@ -10,6 +10,6 @@ elif imc < 24.9:
 elif imc < 29.9:
     print(f'Pela tabela fornecida pela OMS, você está no grau 1 de obesidade e está com a classificação \033[31;4mSobrepeso\033m, com o IMC de {imc:.4}')
 elif imc < 39.9:
-    print(f'Pela tabela fornecida pela OMS, você está no grau 2 de obesidade e está com a classificação \033[32;4mObesidade\03[m, com o IMC de {imc:.4}')
+    print(f'Pela tabela fornecida pela OMS, você está no grau 2 de obesidade e está com a classificação \033[31;4mObesidade\033m, com o IMC de {imc:.4}')
 elif imc > 40:
     print(f'Pela tabela fornecida pela OMS, você está no grau 3 de obesidade e está com a classificação \033[35;4mObesidade Grave\033m, com o IMC de {imc:.4}')
